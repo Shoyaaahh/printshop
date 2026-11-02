@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "1. Install database", "type": "shell", "command": "php database/install.php", "problemMatcher": [] },
+    { "label": "2. Run website (http://localhost:8000)", "type": "shell", "command": "php -S localhost:8000 -t public", "isBackground": true, "problemMatcher": [] },
+    { "label": "Run smoke tests", "type": "shell", "command": "python tests/smoke_test.py", "problemMatcher": [] },
+    { "label": "Backup now", "type": "shell", "command": "python tools/backup.py", "problemMatcher": [] }
+  ]
+}

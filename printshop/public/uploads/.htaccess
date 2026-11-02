@@ -1,0 +1,8 @@
+# Public images only. Never execute scripts in this folder.
+<IfModule mod_php.c>
+  php_flag engine off
+</IfModule>
+<FilesMatch "\.(php|phtml|phar|php[0-9])$">
+  Require all denied
+</FilesMatch>
+Options -Indexes

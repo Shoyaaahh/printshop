@@ -1,0 +1,2 @@
+# If you deploy the whole folder under Apache, never serve anything except /public.
+Require all denied

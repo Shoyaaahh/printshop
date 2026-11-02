@@ -1,0 +1,9 @@
+.env
+storage/*.sqlite*
+storage/uploads/*
+storage/backups/*
+public/uploads/services/*
+public/uploads/branding/*
+__pycache__/
+*.csv
+!storage/**/.gitkeep
